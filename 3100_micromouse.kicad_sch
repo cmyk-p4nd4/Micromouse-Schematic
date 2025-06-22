@@ -4,6 +4,11 @@
 	(generator_version "9.0")
 	(uuid "889dc75f-4037-4ec4-8f3e-1caf8b450acc")
 	(paper "A5")
+	(title_block
+		(title "MTRN3100 Micromouse")
+		(date "2025-06-20")
+		(rev "1.0")
+	)
 	(lib_symbols
 		(symbol "Connector:Screw_Terminal_01x03"
 			(pin_names
@@ -5883,8 +5888,8 @@
 		)
 	)
 	(sheet
-		(at 132.715 80.645)
-		(size 17.145 14.605)
+		(at 27.94 87.63)
+		(size 12.7 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -5899,7 +5904,7 @@
 		)
 		(uuid "23538385-70e1-43d7-a3a7-37d349e28cc8")
 		(property "Sheetname" "STM32F411 Breakout Pin"
-			(at 132.715 79.9334 0)
+			(at 27.94 86.9184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5908,12 +5913,13 @@
 			)
 		)
 		(property "Sheetfile" "stm32f4_mcu_breakout_pin.kicad_sch"
-			(at 132.715 95.8346 0)
+			(at 27.94 92.0246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
 			)
 		)
 		(instances
@@ -5925,8 +5931,8 @@
 		)
 	)
 	(sheet
-		(at 133.35 60.96)
-		(size 15.875 9.525)
+		(at 27.94 97.155)
+		(size 12.7 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -5941,7 +5947,7 @@
 		)
 		(uuid "589552dd-d843-4418-9159-6981d01f9e8e")
 		(property "Sheetname" "Power Supply"
-			(at 133.35 60.2484 0)
+			(at 27.94 96.4434 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5950,12 +5956,13 @@
 			)
 		)
 		(property "Sheetfile" "power_supply.kicad_sch"
-			(at 133.35 71.0696 0)
+			(at 27.94 101.5496 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
 			)
 		)
 		(instances

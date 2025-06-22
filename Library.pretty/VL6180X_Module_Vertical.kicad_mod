@@ -1,0 +1,171 @@
+(footprint "VL6180X_Module_Vertical"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "VL6180X Module Breakout (Vertical)")
+	(property "Reference" "REF**"
+		(at 0 -10.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "ad7aef0e-560a-4a18-8696-54b0ff7b3195")
+		(effects
+			(font
+				(size 1.2 1)
+				(thickness 0.18)
+			)
+		)
+	)
+	(property "Value" "VL6180X_Module_Vertical"
+		(at 0 11 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "4fd3bd2e-8829-40dc-ad88-59a031772cee")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7dbbd431-a98d-4d4d-8988-1e0351f4376d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "942df40c-958d-487e-b3ac-c5b57ed0277c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -1.25 -9.2)
+		(end 1.25 9.2)
+		(stroke
+			(width 0.18)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "f1aa39d9-d393-4c59-9e7d-05d4b51585d9")
+	)
+	(fp_rect
+		(start 1.25 -9.2)
+		(end 2.27 9.2)
+		(stroke
+			(width 0.18)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "261219e6-38ba-4817-937c-fda729b9d7b1")
+	)
+	(fp_rect
+		(start 2.27 -1.475)
+		(end 3.47 1.475)
+		(stroke
+			(width 0.18)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "2f96634c-97e7-4234-a7c2-2a68568c92f6")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "04f662ab-c97c-44a6-919f-c1d38bad16bc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 -7.62)
+		(size 1.7 1.7)
+		(drill 1.02)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "797ac7a8-6dd5-4b49-a381-029cc220d0ba")
+	)
+	(pad "2" thru_hole circle
+		(at 0 -5.08)
+		(size 1.7 1.7)
+		(drill 1.02)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e262d92a-bd5e-4ab7-bb3d-c15ca993428f")
+	)
+	(pad "3" thru_hole circle
+		(at 0 -2.54)
+		(size 1.7 1.7)
+		(drill 1.02)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b90c2786-1c49-4709-b30a-543f07110953")
+	)
+	(pad "4" thru_hole circle
+		(at 0 0)
+		(size 1.7 1.7)
+		(drill 1.02)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a1613865-442c-4a5f-ae26-c6b76f955f00")
+	)
+	(pad "5" thru_hole circle
+		(at 0 2.54)
+		(size 1.7 1.7)
+		(drill 1.02)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b6254f74-cc36-4650-a84f-03568f137d3a")
+	)
+	(pad "6" thru_hole circle
+		(at 0 5.08)
+		(size 1.7 1.7)
+		(drill 1.02)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3fb023a6-529b-4f9a-945e-396968a7f666")
+	)
+	(pad "7" thru_hole circle
+		(at 0 7.62)
+		(size 1.7 1.7)
+		(drill 1.02)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7efb56f7-79fd-4f2a-9cf8-fb78e0b0238a")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/3dmodels/vl6180x-carrier-model.step"
+		(offset
+			(xyz 1.2 8.9 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 90 -180)
+		)
+	)
+)
