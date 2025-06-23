@@ -1,0 +1,153 @@
+(footprint "KEFA_KF2EDGR_3.81_3P"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Pluggable System Terminal Block 300V 8A 3 Right-Angle Pin 3.81mm 1x3P Green")
+	(property "Reference" "REF**"
+		(at 0 -6.6 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "066d1b87-d629-415e-a850-c73dc2526af7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "KF_2EDGR_3.81_3P"
+		(at 0 6.25 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "846c7ba8-53b6-42ff-a385-3a50afc1f275")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "170f22e8-c3e1-4ccc-8fdf-82b2ac71dc5d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "78d4728e-97a7-42a9-b557-8b7c1c119e05")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -6.115 -5.2)
+		(end 6.115 -4.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "a5d00740-f4ed-47b9-b153-e7d48aa393a2")
+	)
+	(fp_rect
+		(start -6.115 -4.6)
+		(end 6.115 -2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "dcee668c-7fed-4b2c-b3fc-862c20dd9d7e")
+	)
+	(fp_rect
+		(start -6.115 -4.6)
+		(end 6.115 4.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "6103dad4-9f16-4721-b2d2-6c41d6776749")
+	)
+	(fp_rect
+		(start -6.115 -2)
+		(end 6.115 -1.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "39c4bb9f-af08-4002-84c6-0a11e56e7790")
+	)
+	(fp_rect
+		(start -6.4 -5.6)
+		(end 6.4 4.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "e2ef2afb-fc50-4e4c-b16b-7f70dc94b33d")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "917856b7-2b98-4a5e-af09-fb9833fcb838")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -3.81 -3.3)
+		(size 2 2)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1)
+		(uuid "cf81966b-b062-4eb8-9693-13987fb57977")
+	)
+	(pad "2" thru_hole circle
+		(at 0 -3.3)
+		(size 2 2)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1)
+		(uuid "e81cc6a7-8bec-4b07-8198-d00cce68694a")
+	)
+	(pad "3" thru_hole circle
+		(at 3.81 -3.3)
+		(size 2 2)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1)
+		(uuid "91f41356-64b9-461b-8d04-29ab020a3b3f")
+	)
+	(embedded_fonts no)
+)

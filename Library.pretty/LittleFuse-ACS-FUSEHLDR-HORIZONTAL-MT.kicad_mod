@@ -1,0 +1,82 @@
+(footprint "LittleFuse-ACS-FUSEHLDR-HORIZONTAL-MT"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "LittleFuse-ACS-FUSEHLDR-HORIZONTAL-MT")
+	(property "Reference" "REF**"
+		(at 0 -9.6 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "ee9131c2-1bda-435e-869d-9dfbe5138220")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "LittleFuse_ACS_Horizontal_Fuse_Holder"
+		(at 0 13.8 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f2a344d2-bcb2-4941-a37a-8cd75358b62e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1796559a-1fc1-454c-a449-338b1bbc6c0d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7871717f-057a-4f03-bf23-079d2019533e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start 0 0)
+		(end 17.27 12.9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "35a9db66-160c-44a7-8117-27d9a48050df")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 15.4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "30c84c8b-5135-4f4e-ac72-f6edaab9ea83")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(embedded_fonts no)
+)

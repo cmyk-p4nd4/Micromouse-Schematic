@@ -5,7 +5,7 @@
 	(layer "F.Cu")
 	(descr "SSD1306 OLED Module Breakout")
 	(property "Reference" "REF**"
-		(at 0 -16.25 0)
+		(at 0 -15.75 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "3fe43933-4fb6-424d-bf14-8714fb79431b")
@@ -17,7 +17,7 @@
 		)
 	)
 	(property "Value" "SSD1306_OLED_Module"
-		(at 0 17.75 0)
+		(at 0 16 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "46dbb1c1-2990-49f1-a314-93cd1fc9592a")
@@ -89,12 +89,42 @@
 			)
 		)
 	)
-	(pad "1" thru_hole circle
+	(pad "" np_thru_hole circle
+		(at -11.65 -11.9)
+		(size 3.5 3.5)
+		(drill 2)
+		(layers "*.Cu" "*.Mask")
+		(uuid "c38152f5-58c5-4289-90de-7c815b614220")
+	)
+	(pad "" np_thru_hole circle
+		(at -11.65 11.9)
+		(size 3.5 3.5)
+		(drill 2)
+		(layers "*.Cu" "*.Mask")
+		(uuid "6dfd4b4e-3141-4519-9362-c8d17d971a96")
+	)
+	(pad "" np_thru_hole circle
+		(at 11.65 -11.9)
+		(size 3.5 3.5)
+		(drill 2)
+		(layers "*.Cu" "*.Mask")
+		(uuid "ede66760-41df-45d8-acc9-b416a00e5123")
+	)
+	(pad "" np_thru_hole circle
+		(at 11.65 11.9)
+		(size 3.5 3.5)
+		(drill 2)
+		(layers "*.Cu" "*.Mask")
+		(uuid "17052fe2-45d5-4735-9738-dfd8abcef816")
+	)
+	(pad "1" thru_hole rect
 		(at -3.81 -12.4 90)
 		(size 1.7 1.7)
 		(drill 1.02)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(solder_mask_margin 0.1)
+		(thermal_bridge_angle 45)
 		(uuid "39b3e82d-be86-4b6d-93fa-715166b36d88")
 	)
 	(pad "2" thru_hole circle
@@ -103,6 +133,7 @@
 		(drill 1.02)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(solder_mask_margin 0.1)
 		(uuid "934d9757-ca04-4e03-ac65-34fc6b09ff44")
 	)
 	(pad "3" thru_hole circle
@@ -111,6 +142,7 @@
 		(drill 1.02)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(solder_mask_margin 0.1)
 		(uuid "9a564722-ac33-4f48-ab5a-4aadb2b6975e")
 	)
 	(pad "4" thru_hole circle
@@ -119,48 +151,8 @@
 		(drill 1.02)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(solder_mask_margin 0.1)
 		(uuid "f88c17c9-13d1-4822-b2ca-dbc9363e3db8")
-	)
-	(pad "5" thru_hole circle
-		(at -11.65 -11.9)
-		(size 3.5 3.5)
-		(drill 2)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "c38152f5-58c5-4289-90de-7c815b614220")
-	)
-	(pad "6" thru_hole circle
-		(at -11.65 11.9)
-		(size 3.5 3.5)
-		(drill 2)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "6dfd4b4e-3141-4519-9362-c8d17d971a96")
-	)
-	(pad "7" thru_hole circle
-		(at 11.65 11.9)
-		(size 3.5 3.5)
-		(drill 2)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "17052fe2-45d5-4735-9738-dfd8abcef816")
-	)
-	(pad "8" thru_hole circle
-		(at 11.65 -11.9)
-		(size 3.5 3.5)
-		(drill 2)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "ede66760-41df-45d8-acc9-b416a00e5123")
-	)
-	(group ""
-		(uuid "fc3317a3-f586-4ac1-b885-13eff751f26f")
-		(members "17052fe2-45d5-4735-9738-dfd8abcef816" "39b3e82d-be86-4b6d-93fa-715166b36d88"
-			"43638492-c41e-4c4f-a5ff-2453efcdcc93" "6dfd4b4e-3141-4519-9362-c8d17d971a96"
-			"934d9757-ca04-4e03-ac65-34fc6b09ff44" "9a564722-ac33-4f48-ab5a-4aadb2b6975e"
-			"af47aac8-8221-478f-b873-9a6719fbc523" "c38152f5-58c5-4289-90de-7c815b614220"
-			"ede66760-41df-45d8-acc9-b416a00e5123" "f88c17c9-13d1-4822-b2ca-dbc9363e3db8"
-		)
 	)
 	(embedded_fonts no)
 )

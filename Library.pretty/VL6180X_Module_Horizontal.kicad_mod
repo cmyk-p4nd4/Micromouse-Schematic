@@ -77,6 +77,28 @@
 		(layer "F.CrtYd")
 		(uuid "e9b76d42-f4a3-4691-b1eb-d59d10338c64")
 	)
+	(fp_rect
+		(start 1.56 0.29)
+		(end 6.06 4.79)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "f5f53a5c-6317-432a-a14f-038e4a42cf51")
+	)
+	(fp_rect
+		(start 1.56 12.99)
+		(end 6.06 17.49)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "6ec01879-6ab9-4fd8-be85-82f8a1766a11")
+	)
 	(fp_text user "${REFERENCE}"
 		(at 0 8.89 90)
 		(unlocked yes)
@@ -89,12 +111,29 @@
 			)
 		)
 	)
+	(pad "" np_thru_hole circle
+		(at 3.81 2.54)
+		(size 4 4)
+		(drill 2.1844)
+		(property pad_prop_mechanical)
+		(layers "*.Cu" "*.Mask")
+		(uuid "b95d3bef-2f2d-4389-b6fb-281d45dd4f3a")
+	)
+	(pad "" np_thru_hole circle
+		(at 3.81 15.24)
+		(size 4 4)
+		(drill 2.1844)
+		(property pad_prop_mechanical)
+		(layers "*.Cu" "*.Mask")
+		(uuid "a4e9f3ca-bde8-42bc-894d-4daf8b35cddc")
+	)
 	(pad "1" thru_hole circle
 		(at -5.08 1.27)
 		(size 1.7 1.7)
 		(drill 1.02)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(solder_mask_margin 0.05)
 		(uuid "8dbff13d-0d46-43b7-9f08-e894de78dff7")
 	)
 	(pad "2" thru_hole circle
@@ -103,6 +142,7 @@
 		(drill 1.016)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(solder_mask_margin 0.05)
 		(uuid "df8ed366-8cbc-4490-abb5-c0d56bbd357c")
 	)
 	(pad "3" thru_hole circle
@@ -111,6 +151,7 @@
 		(drill 1.016)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(solder_mask_margin 0.05)
 		(uuid "692a122b-17c4-414c-b6b7-55efb8cfa482")
 	)
 	(pad "4" thru_hole circle
@@ -119,6 +160,7 @@
 		(drill 1.016)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(solder_mask_margin 0.05)
 		(uuid "4f8d1945-eba4-4277-bf74-6f2d91b217ac")
 	)
 	(pad "5" thru_hole circle
@@ -127,6 +169,7 @@
 		(drill 1.016)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(solder_mask_margin 0.05)
 		(uuid "e21473c3-0ffc-4eeb-8791-88c913515494")
 	)
 	(pad "6" thru_hole circle
@@ -135,6 +178,7 @@
 		(drill 1.016)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(solder_mask_margin 0.05)
 		(uuid "2eb04a5d-e964-4c08-9004-5d15ea12e483")
 	)
 	(pad "7" thru_hole circle
@@ -143,23 +187,8 @@
 		(drill 1.016)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(solder_mask_margin 0.05)
 		(uuid "cf5d2789-cb3c-44fe-9ce5-c1df8b4d18d9")
-	)
-	(pad "8" thru_hole circle
-		(at 3.81 2.54)
-		(size 4 4)
-		(drill 2.1844)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "b95d3bef-2f2d-4389-b6fb-281d45dd4f3a")
-	)
-	(pad "9" thru_hole circle
-		(at 3.81 15.24)
-		(size 4 4)
-		(drill 2.1844)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "a4e9f3ca-bde8-42bc-894d-4daf8b35cddc")
 	)
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/3dmodels/vl6180x-carrier-model.step"

@@ -874,7 +874,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "AX?"
+		(property "Reference" "XA?"
 			(at 0.254 7.112 0)
 			(effects
 				(font
