@@ -2906,10 +2906,6 @@
 		(uuid "27ba370b-fbd8-4b3f-b179-ba588e187aee")
 	)
 	(no_connect
-		(at 48.26 89.535)
-		(uuid "2ac3aa8d-a308-4fc9-a3d9-1cf49a581050")
-	)
-	(no_connect
 		(at 72.39 27.94)
 		(uuid "4d050c8b-e061-497f-b8c1-b216dd71d266")
 	)
@@ -2932,6 +2928,10 @@
 	(no_connect
 		(at 48.26 73.025)
 		(uuid "9625ab2a-fc81-4a5b-8679-ec22aa54a8a5")
+	)
+	(no_connect
+		(at 27.94 100.965)
+		(uuid "a4a674b4-6b34-435a-9975-9c2277d0921b")
 	)
 	(no_connect
 		(at 51.435 39.37)
@@ -3467,6 +3467,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.785 89.535) (xy 57.785 88.265)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68b91866-4c64-457b-9634-157d9b0be4c5")
+	)
+	(wire
+		(pts
 			(xy 72.39 35.56) (xy 76.835 35.56)
 		)
 		(stroke
@@ -3754,6 +3764,16 @@
 			(type default)
 		)
 		(uuid "b09814b7-cadd-4be5-8898-123b1ab0ddcb")
+	)
+	(wire
+		(pts
+			(xy 48.26 89.535) (xy 57.785 89.535)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcdd9610-b50a-4c60-95b1-90ec07d9ac40")
 	)
 	(wire
 		(pts
@@ -4106,7 +4126,7 @@
 		(uuid "0e9a8966-f88a-4fcb-b4f8-fb38d858ddc9")
 	)
 	(label "C14"
-		(at 138.43 69.85 180)
+		(at 138.43 67.31 180)
 		(effects
 			(font
 				(size 0.762 0.762)
@@ -4286,7 +4306,7 @@
 		(uuid "484142a2-fd0d-436d-a651-56d32ed72d60")
 	)
 	(label "MOTOR2A"
-		(at 122.555 26.67 180)
+		(at 122.555 39.37 180)
 		(effects
 			(font
 				(size 0.762 0.762)
@@ -4466,7 +4486,7 @@
 		(uuid "7bfcc0c9-e02f-4a23-9b56-bd9ccf237f39")
 	)
 	(label "MOTOR2B"
-		(at 122.555 39.37 180)
+		(at 122.555 26.67 180)
 		(effects
 			(font
 				(size 0.762 0.762)
@@ -4486,7 +4506,7 @@
 		(uuid "7f8f8bec-f806-4c7d-bd2c-192a06d19f81")
 	)
 	(label "C13"
-		(at 138.43 67.31 180)
+		(at 138.43 69.85 180)
 		(effects
 			(font
 				(size 0.762 0.762)
@@ -4496,7 +4516,7 @@
 		(uuid "80d37a06-a013-43e9-b062-df76e8c5c193")
 	)
 	(label "MOTOR1A"
-		(at 104.14 26.67 180)
+		(at 104.14 39.37 180)
 		(effects
 			(font
 				(size 0.762 0.762)
@@ -4735,16 +4755,6 @@
 		)
 		(uuid "ba3d700f-8607-4c8b-a93e-c5988cdb9222")
 	)
-	(label "A10"
-		(at 27.94 100.965 180)
-		(effects
-			(font
-				(size 0.762 0.762)
-			)
-			(justify right)
-		)
-		(uuid "bc5973e9-0d48-4c2d-819a-349c58c1dfbb")
-	)
 	(label "SDA"
 		(at 108.585 68.2625 180)
 		(effects
@@ -4786,7 +4796,7 @@
 		(uuid "c47b1757-1a6e-4df2-a40b-4e86a00c7f7c")
 	)
 	(label "MOTOR1B"
-		(at 104.14 39.37 180)
+		(at 104.14 26.67 180)
 		(effects
 			(font
 				(size 0.762 0.762)
@@ -4886,7 +4896,7 @@
 		(uuid "e7b1db90-0010-4f36-b8ac-b6194443c44e")
 	)
 	(label "C12"
-		(at 138.43 64.77 180)
+		(at 138.43 72.39 180)
 		(effects
 			(font
 				(size 0.762 0.762)
@@ -4936,7 +4946,7 @@
 		(uuid "f106c387-c230-467a-9dea-26f9b463568a")
 	)
 	(label "B15"
-		(at 138.43 72.39 180)
+		(at 138.43 64.77 180)
 		(effects
 			(font
 				(size 0.762 0.762)
@@ -5436,6 +5446,71 @@
 		)
 	)
 	(symbol
+		(lib_id "Power:VCC")
+		(at 57.785 88.265 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "24640fd6-d8d1-4038-b16b-ef13a693218b")
+		(property "Reference" "#PWR032"
+			(at 57.785 92.075 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 57.785 84.836 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 57.785 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.785 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 57.785 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d734096c-e70d-41c6-8059-2e302ada777f")
+		)
+		(instances
+			(project "3100_micromouse"
+				(path "/889dc75f-4037-4ec4-8f3e-1caf8b450acc"
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
 		(at 150.495 87.63 0)
 		(mirror y)
@@ -5536,7 +5611,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
 			(at 205.74 31.75 0)
 			(effects
 				(font
@@ -6882,7 +6957,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
 			(at 205.74 26.67 0)
 			(effects
 				(font
@@ -7586,7 +7661,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
 			(at 205.74 36.83 0)
 			(effects
 				(font
@@ -8344,7 +8419,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
 			(at 205.74 21.59 0)
 			(effects
 				(font
@@ -8715,16 +8790,6 @@
 				(justify right)
 			)
 		)
-		(pin "+5V_AUX" output
-			(at 48.26 89.535 0)
-			(uuid "519c7268-3b8f-4cbd-955e-c1d203215abe")
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(justify right)
-			)
-		)
 		(pin "TRIG1" bidirectional
 			(at 27.94 90.17 180)
 			(uuid "e5a1d2d2-6433-4b35-b727-ee7301cc8576")
@@ -8753,6 +8818,16 @@
 					(size 0.762 0.762)
 				)
 				(justify left)
+			)
+		)
+		(pin "+5V" input
+			(at 48.26 89.535 0)
+			(uuid "0e4faa3f-b186-46a6-85fb-7e2e53f1f963")
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify right)
 			)
 		)
 		(instances

@@ -18166,17 +18166,6 @@
 		)
 		(uuid "1917c20e-652b-450f-a11e-62f568d6bd48")
 	)
-	(hierarchical_label "+5V_AUX"
-		(shape output)
-		(at 218.44 67.31 0)
-		(effects
-			(font
-				(size 0.762 0.762)
-			)
-			(justify left)
-		)
-		(uuid "1cb956f8-34dd-4fd0-b492-2d771eb2a1bc")
-	)
 	(hierarchical_label "MOSI"
 		(shape bidirectional)
 		(at 218.44 85.09 0)
@@ -18432,7 +18421,7 @@
 	)
 	(hierarchical_label "PWM2"
 		(shape bidirectional)
-		(at 218.44 97.79 0)
+		(at 218.44 95.25 0)
 		(effects
 			(font
 				(size 0.762 0.762)
@@ -18452,6 +18441,17 @@
 		)
 		(uuid "f075c465-fffe-4bf0-a7f6-d24de77214e0")
 	)
+	(hierarchical_label "+5V"
+		(shape input)
+		(at 218.44 67.31 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left)
+		)
+		(uuid "f086c550-e1d3-493d-b003-706bc211457d")
+	)
 	(hierarchical_label "TRIG2"
 		(shape bidirectional)
 		(at 186.69 69.85 180)
@@ -18465,7 +18465,7 @@
 	)
 	(hierarchical_label "PWM1"
 		(shape bidirectional)
-		(at 218.44 95.25 0)
+		(at 218.44 97.79 0)
 		(effects
 			(font
 				(size 0.762 0.762)
